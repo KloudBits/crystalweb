@@ -1,0 +1,23 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-color:#1D1D1D;
+    padding:0px 500px; 
+}
+
+#contenedor{
+	margin-left:auto;
+	margin-right:auto;
+    width:auto;
+    height:800px;
+	background-color:#F9FAFD;
+}
+
+#cabecera{
+    height:50px;
+    width:500px;
+    background-color:#1A30AB;
+}
