@@ -5,47 +5,19 @@
 
 body{
 	background-color:#1D1D1D;
+    padding:0px 500px; 
 }
-
-a.one:link,a:visited{text-decoration:none; padding:20px 10px; text-align:center; font-weight:bold; font-family:'Istok Web' ,sans-serif; font-size:17px; color:#F3F3F6; display:block; background-color:#1A30AB;}
-a.one:hover,a:active{text-decoration:none; background-color:#141C4B;}	
-    
 
 #contenedor{
-	margin:0px auto 0px auto;
-    width:800px;
-	background-color:#030303;
-    padding:2px;
+	margin-left:auto;
+	margin-right:auto;
+    width:auto;
+    height:800px;
+	background-color:#F9FAFD;
 }
 
-#td1{
-    width:600px;
-}
-
-#td2{
-	width:100px;
-}
-
-#td3{
-	width:100px;
-}
-    
 #cabecera{
-    width:800px;
+    height:50px;
+    width:500px;
     background-color:#1A30AB;
-}
-
-#cuerpo{
-	height:500px;
-	background-color:#5D5D62;
-}
-
-#pie{
-    height:200px;
-    padding:10px 10px;
-    background-color:#F3F3F6;
-    color:#707072;
-    font-family:'Istok Web' ,sans-serif;
-    font-size: 50px;
-    text-align: center;
 }
