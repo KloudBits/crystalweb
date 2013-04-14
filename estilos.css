@@ -1,51 +1,92 @@
 *{
-	margin:0px;
-	padding:0px;
-}
+    margin:0px;
+    padding:0px;
+ }
 
-body{
-	background-color:#1D1D1D;
-}
+ body{
+    background-color:#272822;
+ }
 
-a.one:link,a:visited{text-decoration:none; padding:20px 10px; text-align:center; font-weight:bold; font-family:'Istok Web' ,sans-serif; font-size:17px; color:#F3F3F6; display:block; background-color:#1A30AB;}
-a.one:hover,a:active{text-decoration:none; background-color:#141C4B;}	
-    
+ #contenedor{
+  width:1200px;
+  margin:auto;
+  padding:4px;
+  background-color:#171814;
+ }
 
-#contenedor{
-	margin:0px auto 0px auto;
-    width:800px;
-	background-color:#030303;
-    padding:2px;
-}
 
-#td1{
-    width:600px;
-}
-
-#td2{
-	width:100px;
-}
-
-#td3{
-	width:100px;
-}
-    
 #cabecera{
-    width:800px;
-    background-color:#1A30AB;
+  height:50px;
+  width:100%;
+  color:#B6c7DC;
+  background-color: #094A9B;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#divmayor{
+  height:100%;
+  width:600px;
+  position: absolute;
+  left:0px;
+  padding:5px 450px 5px 150px;
+  font-size:30px;
+}
+
+div.menores{
+  width: 200px;
+  height:100%;
+  position: absolute;
+  top:15px;
+  bottom: 15px;
+  left:600px;
+  font-size: 20px;
+}
+  
+#menor2{
+  position:absolute;
+  left:800px;
+}
+
+#menor3{
+  position:absolute;
+  left:1000px;
+}
+
+#menor4{
+  position:absolute;
+  left:1200px;
 }
 
 #cuerpo{
-	height:500px;
-	background-color:#5D5D62;
+  width:100%;
+  height:800px;
+  background-color:#242424;
+}
+
+img{
+  width:100%;
+  height:100%;
 }
 
 #pie{
-    height:200px;
-    padding:10px 10px;
-    background-color:#F3F3F6;
-    color:#707072;
-    font-family:'Istok Web' ,sans-serif;
-    font-size: 50px;
-    text-align: center;
+  width:100%;
+  height:300px;
+  background-color:#F3F3F3;
+  color:#676767;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align:center;
 }
+
+h1{
+ font-size:70px; 
+}
+
+p{
+  font-size: 35px;
+}
+
+
+
+
+
+
