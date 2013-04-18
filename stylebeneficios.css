@@ -8,16 +8,16 @@ body{
  }
 
  #contenedor{
-  width:1200px;
+  width:1204px;
   margin:auto;
   padding:4px;
-  background-color:#171814;
+  background-color:#272822;
  }
 
 
 #cabecera{
   height:50px;
-  width:100%;
+  width:1204px;
   color:#B6c7DC;
   background-color: #094A9B;
   font-family: 'Josefin Sans', sans-serif;
@@ -54,7 +54,7 @@ div.menores{
 
 #menor4{
   position:absolute;
-  left:1200px;
+  left:1204;
 }
 
 a:link,a:visited{
@@ -68,29 +68,42 @@ a:hover,a:active{
 }
 
 #cuerpo{
-  width:100%;
-  height:800px;
-  background-color:#242424;
+  width:1203px;
+  margin:auto;
+  background-color:#DEDEDF;
 }
 
-img.inicio{
-  width:100%;
-  height:100%;
-}
-
-#pie{
-  width:100%;
-  height:300px;
-  background-color:#F3F3F3;
+.dobleconts{
+  width:1203;
+  height:200px;
+  background-color:#FFFFFF;
+  font-size: 17px;
   color:#676767;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align:center;
+  font-weight:bold;
+  border-style: solid;
+  border-color: #DEDEDF;    
+  border-width: 4px;
 }
 
-h1{
- font-size:70px; 
+#contimg1{
+  float:right;
 }
 
-p{
-  font-size: 35px;
+#contimg2{
+  float:left;
+}
+
+img{
+  width:150px;
+  height:150px;
+}
+
+.title{
+    font-size:20px;
+    color:#094A9B;
+    margin:50px 5px 5px 5px;
+}
+  
+p.parrafos{
+  margin: 10px 5px;
 }
