@@ -8,7 +8,7 @@
 <div id="contenedor">
 
     <div id="cabecera">
-        <div id="divmayor">Crystalboard</div>
+        <div id="divmayor"><a href="index.html">Crystalboard</a></div>
         <div class="menores"><a href="Beneficios.html">Beneficios</a></div>
         <div id="menor2" class="menores"><a href="Nosotrosp.html">Nosotros</a></div>
         <div id="menor3" class="menores"><a href="index.html">Contacto</a></div>  
@@ -19,7 +19,7 @@
 		 <? 
 		 if (!$HTTP_POST_VARS){ 
 		 ?> 
-		 <form action="form1.php" method=post> 
+		 <form action="Contacto.php" method=post> 
 		 	<p class="parraf">
 			  Nombre:
 			  <br>

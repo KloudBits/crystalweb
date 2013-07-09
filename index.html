@@ -2,21 +2,42 @@
 <html> 
 <head> 
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="estilos.css"> 
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<!--inicio Slider-->
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js' type='text/javascript'/></script>
+<script type="text/javascript">//<![CDATA[
+$(function(){
+    $('#slider div:gt(0)').hide();
+    setInterval(function(){
+      $('#slider div:first-child').fadeOut(0)
+         .next('div').fadeIn(1000)
+         .end().appendTo('#slider');}, 4000);
+});
+//]]></script>
+<!--termino Slider-->
+
 <title>Cristalboard</title> 
 </head> 
 <body> 
 <div id="contenedor">
 
     <div id="cabecera">
-        <div id="divmayor">Crystalboard</div>
+        <div id="divmayor"><a href="index.html">Crystalboard</a></div>
         <div class="menores"><a href="Beneficios.html">Beneficios</a></div>
         <div id="menor2" class="menores"><a href="Nosotrosp.html">Nosotros</a></div>
-        <div id="menor3" class="menores"><a href="Contacto.html">Contacto</a></div>  
+        <div id="menor3" class="menores"><a href="Contacto.php">Contacto</a></div>  
     </div>
 
     <div id="cuerpo">
-        <img class="inicio"src="IMG/foto.jpg">
+        <img class="inicio" src="IMG/foto.jpg">
+        <div id="visor">
+         <div id="slider">
+            <div><img class="slider" src="IMG/1.jpg" /></div>
+            <div><img class="slider" src="IMG/2.jpg" /></div>
+            <div><img class="slider" src="IMG/5.jpg" /></div>
+         </div>  
+        </div>
     </div> 
 
     <div id="pie"> 
